@@ -1,1 +1,1 @@
-# An interpretted virtual dom in ClojureScript
+An interpretted virtual dom in ClojureScript. Not ready for use.
