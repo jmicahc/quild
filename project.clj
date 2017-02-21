@@ -6,6 +6,8 @@
 
   :min-lein-version "2.7.1"
 
+  :repositories {"local" ~(str (.toURI (java.io.File. "maven_repository")))}
+
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.229"]
                  [org.clojure/core.async "0.2.391"
